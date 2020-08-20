@@ -15,3 +15,7 @@ Additional tasks:
          Add "Open with Code" action to Windows Explorer directory context menu
          Add to PATH (requires shell restart)
 ```         
+
+## Liitännäiset
+Visualstudio codeen lisättiin seuraavat liitännäiset:
+1. Todo Tree
