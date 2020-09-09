@@ -1,5 +1,6 @@
 ﻿// Määritellään ulkoiset nimiavaruudet
 using System;
+using Jokumuu;
 
 // Määritellään pääohjelman nimiavaruus
 namespace sali
@@ -24,7 +25,20 @@ namespace sali
 			
 			// Kutsutaan metodia, joka tulostaa painoindeksin
 			asiakas.BMI();
-            
-        }
+
+			// Luodaan Punnitus-olio luokasta joka on määritelty Jokumuu-nimiavaruudessa
+
+			Jokumuu.Punnitus punnitus1 = new Jokumuu.Punnitus(71.2f);
+
+			Console.WriteLine("Ensimmäinen punnitus " + punnitus1.paino);
+
+			// Jos Jokumuu-nimiavaruus on otettu käyttöön Using-lauseessa olion voi luoda:
+			Punnitus punnitus2 = new Punnitus(70.5f);
+
+			Console.WriteLine("Toinen punnitus " + punnitus2.paino);
+
+
+
+		}
     }
 }
