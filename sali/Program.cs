@@ -1,7 +1,7 @@
 ﻿// Määritellään ulkoiset nimiavaruudet
 using System;
 
-// Otetaan ulkoinen nimiavaruus käyttöön, sen komponentit löytyvät ilman polkua
+// Otetaan ulkoinen Jokumuu-nimiavaruus  käyttöön, sen komponentit löytyvät ilman polkua
 using Jokumuu;
 
 // Määritellään pääohjelman nimiavaruus
